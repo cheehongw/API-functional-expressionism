@@ -1,12 +1,13 @@
 const mongoose = require('mongoose');
-const stallSchema = require('./stallSchema');
 
-var CoordsSchema = new mongoose.Schema({
+const Schema = mongoose.Schema;
+
+var CoordsSchema = Schema({
     lat: {type: Number, required: true},
     lon: {type: Number, required: true},
 })
 
-var locationSchema = new mongoose.Schema({
+var locationSchema = Schema({
     locationName: {type: String, required: true},
     locationDesc: String,
     locationURL: {type: String, required: true},
@@ -16,8 +17,8 @@ var locationSchema = new mongoose.Schema({
         required: true
     },
     rating: {type: Number, default: null},
-    stallList: [stallSchema],
+    stallList: [{type: Schema.Types.ObjectId, ref: 'Stall'}],
 
 })
 
-module.exports = locationSchema;
+module.exports = mongoose.model('Location', locationSchema);
