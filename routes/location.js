@@ -1,7 +1,7 @@
 var express = require('express');
 var locationRouter = express.Router();
-var getLocationXS = require('./getLocationXS')
-var getLocationDetails = require('./getLocationDetails')
+var getLocationXS = require('../controllers/getLocationXS')
+var getLocationDetails = require('../controllers/getLocationDetails')
 
 /* return a list of locations */
 locationRouter.get('/', getLocationXS);
