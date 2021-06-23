@@ -9,4 +9,10 @@ var stallSchema = new Schema({
 
 });
 
+stallSchema
+    .virtual('url')
+    .get( () => {
+        return '/catalog/stall/' + this._id;
+    });
+
 module.exports = mongoose.model('Stall', stallSchema);

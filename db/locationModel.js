@@ -21,4 +21,10 @@ var locationSchema = Schema({
 
 })
 
+locationSchema
+    .virtual('url')
+    .get( () => {
+        return '/catalog/location/' + this._id;
+    });
+
 module.exports = mongoose.model('Location', locationSchema);
