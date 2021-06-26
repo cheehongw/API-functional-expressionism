@@ -1,0 +1,85 @@
+{
+  "Fine Food": [
+    {
+      "stallName": "Taiwan Cuisine",
+      "stallImage": ["https://i.imgur.com/k7mENNo.jpg"],
+      "menuImage":["https://i.imgur.com/SG57G3o.jpg"],
+      "rating": null,
+      "menu": []
+    },
+    {
+      "stallName": "Duck and Chicken Rice",
+      "stallImage": ["https://i.imgur.com/GhxA9Ds.jpg"],
+      "menuImage":["https://i.imgur.com/qC7nzgF.jpg"],
+      "rating": null,
+      "menu": []
+    },
+    {
+      "stallName": "Japanese and Korean",
+      "stallImage": ["https://i.imgur.com/mR6vtS9.jpg"],
+      "menuImage":["https://i.imgur.com/JlOAA88.jpg"],
+      "rating": null,
+      "menu": []
+    },
+    {
+      "stallName": "Wok Fried",
+      "stallImage": ["https://i.imgur.com/BqEqAR1.jpg"],
+      "menuImage":["https://i.imgur.com/8gGVDMI.jpg"],
+      "rating": null,
+      "menu": []
+    },
+    {
+      "stallName": "Xiao Long Bao",
+      "stallImage": ["https://i.imgur.com/0m0lSiM.jpg"],
+      "menuImage":["https://i.imgur.com/WWUjKf4.jpg"],
+      "rating": null,
+      "menu": []
+    },
+    {
+      "stallName": "Five Grains Bee Hoon",
+      "stallImage": ["https://i.imgur.com/agPUJwn.jpg"],
+      "menuImage":["https://i.imgur.com/x3NOHwv.jpg",
+        "https://i.imgur.com/IJ2Pmfx.jpg"],
+      "rating": null,
+      "menu": []
+    },
+    {
+      "stallName": "Happy Noodle Bar",
+      "stallImage": ["https://i.imgur.com/22seGZv.jpg"],
+      "menuImage":[
+        "https://i.imgur.com/fEChKkx.jpg",
+        "https://i.imgur.com/beYp9NP.jpg",
+        "https://i.imgur.com/IEpJIRl.jpg"],
+      "rating": null,
+      "menu": []
+    }
+  ],
+  "Frontier": [
+    {
+      "stallName": "Pasta Express",
+      "stallImage": null,
+      "rating": null,
+      "menu": []
+    }
+  ],
+  "The Deck": [
+    {
+      "stallName": "Japanese Cuisine",
+      "stallImage": null,
+      "rating": null,
+      "menu": []
+    },
+    {
+      "stallName": "Pasta Express",
+      "stallImage": null,
+      "rating": null,
+      "menu": []
+    }
+  ],
+  "Yusof Ishak House": [
+  ],
+  "Foodclique PGPR": [
+  ],
+  "Techno Edge": [
+  ]
+}

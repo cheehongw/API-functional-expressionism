@@ -1,0 +1,68 @@
+[
+  {
+    "locationDesc": null,
+    "rating": null,
+    "stallList": [],
+    "locationName": "Fine Food",
+    "locationImage": "https://uci.nus.edu.sg/oca/wp-content/uploads/sites/9/2018/05/Fine-Food-1-1024x684.jpg",
+    "locationCoords": {
+      "lat": 1.3039243264208893,
+      "lon": 103.77358221163944
+    }
+  },
+  {
+    "locationDesc": null,
+    "rating": null,
+    "stallList": [],
+    "locationName": "Yusof Ishak House",
+    "locationImage": "https://uci.nus.edu.sg/oca/wp-content/uploads/sites/9/2018/05/Central-Square-Edited-1024x684.jpg",
+    "locationCoords": {
+      "lat": 1.2980876775587555,
+      "lon": 103.77357597666753
+    }
+  },
+  {
+    "locationName": "Frontier",
+    "locationDesc": null,
+    "locationImage": "https://uci.nus.edu.sg/oca/wp-content/uploads/sites/9/2018/05/Frontier-Canteen-1024x684.jpg",
+    "locationCoords": {
+      "lat": 1.2963879855852434,
+      "lon": 103.7803321601463
+    },
+    "rating": null,
+    "stallList": []
+  },
+  {
+    "locationName": "Foodclique PGPR",
+    "locationDesc": null,
+    "locationImage": "https://uci.nus.edu.sg/oca/wp-content/uploads/sites/9/2018/05/Foodclique.jpg",
+    "locationCoords": {
+      "lat": 1.2910409012308035,
+      "lon": 103.78220104504857
+    },
+    "rating": null,
+    "stallList": []
+  },
+  {
+    "locationName": "The Deck",
+    "locationDesc": null,
+    "locationImage": "https://s3-ap-southeast-1.amazonaws.com/whyqsg/uploads/foodcourts/7921f5d5cfddb5bc1ade6b2e5850de0b.png",
+    "locationCoords": {
+      "lat": 1.2947040504568241,
+      "lon": 103.77247498894651
+    },
+    "rating": null,
+    "stallList": []
+  },
+  {
+    "locationName": "Techno Edge",
+    "locationDesc": null,
+    "locationImage": "https://uci.nus.edu.sg/oca/wp-content/uploads/sites/9/2021/01/Techno-Edge-1024x684.jpg",
+    "locationCoords": {
+      "lat": 1.297927028432077, 
+      "lon": 103.77178074762413
+    },
+    "rating": null,
+    "stallList": []
+  }
+]

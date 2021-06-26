@@ -9,8 +9,7 @@ var CoordsSchema = Schema({
 
 var locationSchema = Schema({
     locationName: {type: String, required: true},
-    locationDesc: String,
-    locationURL: {type: String, required: true},
+    locationDesc: {type: String, default: null},
     locationImage: {type: String, required: true},
     locationCoords: {
         type: CoordsSchema,

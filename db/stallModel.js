@@ -2,10 +2,12 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 var stallSchema = new Schema({
-    stallName: String,
-    stallImage: String,
+    stallName: {type: String, required: true},
+    stallImage: [String],
+    menuImage: [String],
     rating: {type: Number, default: null},
     menu: [{type: Schema.Types.ObjectId, ref: 'Dish'}],
+    location: {type: Schema.Types.ObjectId, ref: 'Location', required: true}
 
 });
 
