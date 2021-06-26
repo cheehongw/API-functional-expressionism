@@ -6,7 +6,6 @@ var stallSchema = new Schema({
     stallImage: [String],
     menuImage: [String],
     rating: {type: Number, default: null},
-    menu: [{type: Schema.Types.ObjectId, ref: 'Dish'}],
     location: {type: Schema.Types.ObjectId, ref: 'Location', required: true}
 
 });

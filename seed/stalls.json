@@ -55,22 +55,19 @@
     }
   ],
   "Frontier": [
-    {
-      "stallName": "Pasta Express",
+    {"stallName": "Pasta Express",
       "stallImage": null,
       "rating": null,
       "menu": []
     }
   ],
   "The Deck": [
-    {
-      "stallName": "Japanese Cuisine",
+    {"stallName": "Japanese Cuisine",
       "stallImage": null,
       "rating": null,
       "menu": []
     },
-    {
-      "stallName": "Pasta Express",
+    {"stallName": "Pasta Express",
       "stallImage": null,
       "rating": null,
       "menu": []

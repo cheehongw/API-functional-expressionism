@@ -1,0 +1,1344 @@
+{
+  "Fine Food": {
+    "Duck and Chicken Rice": [
+      {
+        "name": "Charcoal Roasted Duck Rice Set",
+        "price": {
+          "student": 5.50,
+          "public": 6.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Charcoal Roasted Duck Rice",
+        "price": {
+          "student": 3.60,
+          "public": 4.60
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Steamed/ Roasted Chicken Rice",
+        "price": {
+          "student": 3.60,
+          "public": 4.60
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Charcoal Roasted Char Siew Rice",
+        "price": {
+          "student": 3.60,
+          "public": 4.60
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Charcoal Roasted Pork Rice",
+        "price": {
+          "student": 3.60,
+          "public": 4.60
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Char Siew & Roasted Pork Rice",
+        "price": {
+          "student": 4.50,
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Steamed/ Roasted Chicken/ Char Siew/ Roasted Pork Rice Set",
+        "price": {
+          "student": 5.50,
+          "public": 6.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Char Siew Wanton Noodle",
+        "price": {
+          "student": 3.60,
+          "public": 4.60
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Charcoal Roasted Duck Noodle",
+        "price": {
+          "student": 3.60,
+          "public": 4.60
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "2 Combination Set (Steamed/ Roasted Chicken/ Roasted Duck/ Char Siew/ Roasted Pork",
+        "price": {
+          "student": 6.00,
+          "public": 7.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": "Choose any 2"
+      }
+    ],
+    "Japanese and Korean": [
+      {
+        "name": "BBQ Saba Fish Set",
+        "price": {
+          "student": 5.00,
+          "public": 5.60
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "BBQ Beef Set",
+        "price": {
+          "student": 5.00,
+          "public": 5.60
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "BBQ Black Pepper Beef Set",
+        "price": {
+          "student": 5.00,
+          "public": 5.60
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "BBQ Pork Set",
+        "price": {
+          "student": 4.80,
+          "public": 5.40
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "BBQ Chicken Set",
+        "price": {
+          "student": 4.80,
+          "public": 5.40
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "BBQ Pork + Chicken Set",
+        "price": {
+          "student": 5.50,
+          "public": 6.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "BBQ Saba + Chicken Combo",
+        "price": {
+          "student": 5.50,
+          "public": 6.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Bibimbap",
+        "price": {
+          "student": 4.50,
+          "public": 5.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Dolsot Bibimbap",
+        "price": {
+          "student": 5.50,
+          "public": 6.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Black Pepper Beef Bibimbap",
+        "price": {
+          "student": 5.50,
+          "public": 6.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Kimchi Fried Rice",
+        "price": {
+          "student": 4.50,
+          "public": 5.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Kimchi Shin Ramen",
+        "price": {
+          "student": 4.30,
+          "public": 4.90
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Kimchi Soup Set",
+        "price": {
+          "student": 4.50,
+          "public": 4.90
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Beef / Chicken Veg Soup Set",
+        "price": {
+          "student": 5.20,
+          "public": 5.70
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Salmon Bento",
+        "price": {
+          "student": 5.00,
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Salmon + Chicken / Pork / Beef Bento",
+        "price": {
+          "student": 6.00,
+          "public": 6.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Chicken / Pork Cutlet + Fried Ebi Bento",
+        "price": {
+          "student": 5.20,
+          "public": 5.70
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Chicken / Pork Cutlet + Scallop Bento",
+        "price": {
+          "student": 5.20,
+          "public": 5.70
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Salmon Chicken / Pork Cutlet Bento",
+        "price": {
+          "student": 6.00,
+          "public": 6.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Fried Chicken / Pork + Gyoza Bento",
+        "price": {
+          "student": 5.20,
+          "public": 5.70
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Homemade Drinks",
+        "price": {
+          "student": 1.30,
+          "public": 1.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      }
+    ],
+    "Taiwan Cuisine": [
+      {
+        "name": "Honey Chicken Chop Rice",
+        "price": {
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "X-Large Chicken Chop Rice",
+        "price": {
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Taiwanese Pork Chop Rice",
+        "price": {
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Salted Crispy Chicken Rice",
+        "price": {
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Sesame Seed Chicken Rice",
+        "price": {
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Taiwanese Sweet & Sour Chicken Rice",
+        "price": {
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Teriyaki Chicken Rice",
+        "price": {
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Mala Chicken Chop Rice",
+        "price": {
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Taiwan Braised Pork Rice",
+        "price": {
+          "public": 4.30
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Oyster Mee Sua",
+        "price": {
+          "public": 4.30
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Honey Glazed Chicken Chop",
+        "price": {
+          "public": 4.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "X-Large Chicken Chop",
+        "price": {
+          "public": 4.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Salted Crispy Chicken",
+        "price": {
+          "small": 3.00,
+          "medium": 4.00,
+          "large": 5.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Sesame Seed Crispy Chicken",
+        "price": {
+          "small": 3.00,
+          "medium": 4.00,
+          "large": 5.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Taiwanese Sweet & Sour Chicken",
+        "price": {
+          "public": 3.80
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Teriyaki Chicken",
+        "price": {
+          "public": 3.80
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Mala Chicken Chop",
+        "price": {
+          "public": 4.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Crispy Sweet Potato Fries",
+        "price": {
+          "public": 2.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Fish Tempura",
+        "price": {
+          "public": 2.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Crispy Shitake Mushroom",
+        "price": {
+          "public": 2.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Crispy Sotong",
+        "price": {
+          "public": 2.80
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      }
+    ],
+    "Wok Fried": [
+      {
+        "name": "Hot Chilli Oil Chicken Rice Set",
+        "price": {
+          "student": 6.00,
+          "public": 6.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Chicken Cutlet Rice Set with Egg (Salted Egg/Creamy/Black Pepper/Sweet&Sour)",
+        "price": {
+          "student": 5.00,
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Salted Egg Chicken/Pork/Fish Rice Set with Egg",
+        "price": {
+          "student": 5.00,
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Creamy Chicken/Pork/Fish Rice Set with Egg",
+        "price": {
+          "student": 4.00,
+          "public": 4.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Cereal Chicken/Pork/Fish Rice Set with Egg",
+        "price": {
+          "student": 5.00,
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Stewed Beef Rice Set with Egg",
+        "price": {
+          "student": 6.00,
+          "public": 6.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Dry Fried Hor Fun/Hor Fun with Egg",
+        "price": {
+          "student": 4.50,
+          "public": 5.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": "Chicken/Pork/Seafood"
+      },
+      {
+        "name": "Ginger & Spring Onion Diced Chicken / Sliced Fish / Diced Pork Rice Set with Egg",
+        "price": {
+          "student": 4.00,
+          "public": 4.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Black Pepper Diced Chicken / Sliced Fish / Diced Pork Rice Set with Egg",
+        "price": {
+          "student": 4.00,
+          "public": 4.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Dried Chilli Diced Chicken / Sliced Fish / Diced Pork Rice Set with Egg",
+        "price": {
+          "student": 4.50,
+          "public": 5.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Seafood Fried Rice Set",
+        "price": {
+          "student": 5.00,
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Beef Fried Rice Set",
+        "price": {
+          "student": 4.00,
+          "public": 4.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Kampong Fried Rice Set",
+        "price": {
+          "student": 4.00,
+          "public": 4.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Sambal Seafood Fried Rice Set",
+        "price": {
+          "student": 4.00,
+          "public": 4.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Cereal Fried Rice Set",
+        "price": {
+          "student": 5.00,
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Mapo Tofu Rice Set with Egg",
+        "price": {
+          "student": 5.00,
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Prawn Paste Chicken (1 pc)",
+        "price": {
+          "student": 1.50,
+          "public": 2.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      }
+    ],
+    "Xiao Long Bao": [
+      {
+        "name": "Shanghai Juicy Fresh Meat Xiao Long Bao (6pcs)",
+        "price": {
+          "student": 4.50,
+          "public": 5.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Fresh Meat Dumpling w/ Chilli Oil",
+        "price": {
+          "student": 4.00,
+          "public": 4.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Shanghai Fresh Meat Deep Fried Dumpling (6pcs)",
+        "price": {
+          "student": 4.30,
+          "public": 4.80
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Beijing Steamed Dumpling (10pcs)",
+        "price": {
+          "student": 4.00,
+          "public": 4.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Beijing Minced Noodle (Dry)",
+        "price": {
+          "student": 4.30,
+          "public": 4.80
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Braised Beef Noodle",
+        "price": {
+          "student": 4.50,
+          "public": 5.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Tomato Egg Noodle",
+        "price": {
+          "student": 4.00,
+          "public": 4.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Chilli Oil Dumpling Noodle",
+        "price": {
+          "student": 4.50,
+          "public": 5.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Chicken Soup Dumpling",
+        "price": {
+          "student": 4.00,
+          "public": 4.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Online Sesame / Red Bean Paste Sesame Pancake",
+        "price": {
+          "student": 4.00,
+          "public": 4.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Fine Handmade Shan Dong Pancake",
+        "price": {
+          "student": 3.00,
+          "public": 3.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Shanghai Dumpling Noodle",
+        "price": {
+          "student": 4.30,
+          "public": 4.80
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Fresh Prawn Chicken Siew Mai (6pcs)",
+        "price": {
+          "student": 4.50,
+          "public": 5.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Shanghai Deep Fried Bao (4pcs)",
+        "price": {
+          "student": 4.50,
+          "public": 5.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Chicken Fried Noodle",
+        "price": {
+          "student": 5.00,
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Chicken Soup Wanton Noodle",
+        "price": {
+          "student": 4.50,
+          "public": 5.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Sichuan Dan-Dan Noodle",
+        "price": {
+          "student": 4.30,
+          "public": 4.80
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      }
+    ],
+    "Five Grains Bee Hoon": [
+      {
+        "name": "Signature Fish Bee Hoon",
+        "price": {
+          "student": 5.50,
+          "public": 6.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Fragrant Beef Bee Hoon",
+        "price": {
+          "student": 5.50,
+          "public": 6.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Sour & Spicy Fish Bee Hoon",
+        "price": {
+          "student": 5.00,
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Fragrant Fish Bee Hoon",
+        "price": {
+          "student": 5.00,
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Tomato Fishball Bee Hoon",
+        "price": {
+          "student": 5.00,
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Braised Chicken Bee Hoon",
+        "price": {
+          "student": 4.50,
+          "public": 5.00
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Delicious Cold Bee Hoon",
+        "price": {
+          "student": 5.00,
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Original Fish Bee Hoon",
+        "price": {
+          "student": 5.00,
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Golden Fish Soup Bee Hoon",
+        "price": {
+          "student": 5.00,
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Tomato Gravy Fish Bee Hoon",
+        "price": {
+          "student": 5.00,
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      }
+    ],
+    "Happy Noodle Bar": [
+      {
+        "name": "Happy Signature Noodle (Dry/Soup)",
+        "price": {
+          "student": 6.00,
+          "public": 6.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Singapore Laksa",
+        "price": {
+          "student": 4.80,
+          "public": 5.30
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Original Bak Chor Mee (Dry/Soup)",
+        "price": {
+          "student": 4.30,
+          "public": 4.80
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Teochew Fishball Noodle (Dry/Soup)",
+        "price": {
+          "student": 3.80,
+          "public": 4.30
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Fried Wanton Noodle (Dry/Soup)",
+        "price": {
+          "student": 4.30,
+          "public": 4.80
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Homemade Shrimp Dumpling Noodle (Dry/Soup)",
+        "price": {
+          "student": 4.80,
+          "public": 5.30
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Shrimp Cutlet Noodle (Dry/Soup)",
+        "price": {
+          "student": 5.30,
+          "public": 5.80
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Teochew Fishball Soup",
+        "price": {
+          "student": 4.30,
+          "public": 4.80
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Homemade Prawn Dumpling Soup (7pcs)",
+        "price": {
+          "student": 5.30,
+          "public": 5.80
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Handmade Meatball Soup",
+        "price": {
+          "student": 4.80,
+          "public": 5.30
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Signature Mini Pot Noodle",
+        "price": {
+          "student": 5.30,
+          "public": 5.80
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Hong Kong Style Luncheon Meat Noodle",
+        "price": {
+          "student": 5.00,
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Home Style Ban Mian",
+        "price": {
+          "student": 4.80,
+          "public": 5.30
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Handmade Meatball Noodle",
+        "price": {
+          "student": 4.80,
+          "public": 5.30
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Mala Bak Chor Mee (Dry/Soup)",
+        "price": {
+          "student": 5.00,
+          "public": 5.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Cheese Tofu (3pcs)",
+        "price": {
+          "student": 2.00,
+          "public": 2.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Teochew Fishball (3pcs)",
+        "price": {
+          "student": 1.80,
+          "public": 2.30
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Fried Wanton (3pcs)",
+        "price": {
+          "student": 1.70,
+          "public": 2.20
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Fried Seafood Beancurd Roll (1pc)",
+        "price": {
+          "student": 2.00,
+          "public": 2.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Handmade Ngoh Hiang (1pc)",
+        "price": {
+          "student": 2.00,
+          "public": 2.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Bao Xin Wan (2pcs)",
+        "price": {
+          "student": 1.70,
+          "public": 2.20
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Thai Fish Cake (1pc)",
+        "price": {
+          "student": 1.40,
+          "public": 1.90
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Premium Luncheon Meat (100g)",
+        "price": {
+          "student": 2.00,
+          "public": 2.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Seafood Meat Roll (2pcs)",
+        "price": {
+          "student": 2.00,
+          "public": 2.50
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      }
+    ]
+  },
+  "Frontier": {
+    "Pasta Express": []
+  },
+  "The Deck": {
+    "Japanese Cuisine": [
+      {
+        "name": "Chicken Teriyaki Set",
+        "price": {
+          "price": 3.8
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Chicken Katsu Set",
+        "price": {
+          "price": 3.8
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Fish Fillet Set",
+        "price": {
+          "price": 3.8
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Chicken Katsu Curry Set",
+        "price": {
+          "price": 3.8
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Ebi Curry Set",
+        "price": {
+          "price": 4.3
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Chicken Karaage Set",
+        "price": {
+          "price": 4
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Salmon Set",
+        "price": {
+          "price": 4.5
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Beef Set",
+        "price": {
+          "price": 4.5
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Chicken Tama",
+        "price": {
+          "price": 4.3
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Unagi Tama",
+        "price": {
+          "price": 4.8
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Salmon Tama",
+        "price": {
+          "price": 4.8
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Chicken & Salmon Bento",
+        "price": {
+          "price": 4.8
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Chicken & Ebi Bento",
+        "price": {
+          "price": 4.8
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Chicken & Fish Fillet Bento",
+        "price": {
+          "price": 4.8
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      },
+      {
+        "name": "Ebi & Fish Fillet Bento",
+        "price": {
+          "price": 4.8
+        },
+        "displayImage": null,
+        "rating": null,
+        "desc": null
+      }
+    ],
+    "Pasta Express": []
+  }
+}

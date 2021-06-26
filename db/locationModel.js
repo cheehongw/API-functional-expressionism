@@ -16,7 +16,6 @@ var locationSchema = Schema({
         required: true
     },
     rating: {type: Number, default: null},
-    stallList: [{type: Schema.Types.ObjectId, ref: 'Stall'}],
 
 })
 
