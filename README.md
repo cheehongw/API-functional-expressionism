@@ -12,5 +12,7 @@ This is the backend for team Functional Expressionism's orbital project.
 # API
 
 `GET: /location`: Returns a list of locations in NUS
+
 `GET: /location/<Location_Name>`: Returns details of a particular location. `Location_Name` is the name of the Location, replace any spaces with underscore. 
+
 //to be added...
