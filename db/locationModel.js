@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 var CoordsSchema = Schema({
     lat: {type: Number, required: true},
     lon: {type: Number, required: true},
-})
+},{_id : false})
 
 var locationSchema = Schema({
     locationName: {type: String, required: true},

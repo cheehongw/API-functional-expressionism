@@ -14,7 +14,7 @@ const locationDocs = locationData.map((loc) => {
 
 //generate stallDocs and link them to locationDocs
 const stallDocs = Object.entries(stallData).map((key_value_arr) => {
-    
+
     const [location, stallXs] = key_value_arr; //less elegant than how it was done in dishDocs,
 
     const StallDocs = stallXs.map((stall) => {
@@ -23,7 +23,7 @@ const stallDocs = Object.entries(stallData).map((key_value_arr) => {
             .find(x => x.locationName === location)._id;
         return doc;
     }, location);
-    
+
     return StallDocs;
 }).flat();
 
@@ -37,7 +37,7 @@ const dishDocs = Object.keys(dishData).map((locationKey) => {
             const doc = new Dish(dish);
 
             const locationID = locationDocs.find(y => y.locationName === locationKey)._id;
-            doc.stall = stallDocs.find(x => (x.stallName === stallKey 
+            doc.stall = stallDocs.find(x => (x.stallName === stallKey
                 && x.location === locationID))._id;
 
             return doc;
@@ -50,8 +50,20 @@ const dishDocs = Object.keys(dishData).map((locationKey) => {
 //mappity map
 
 function uploadLocation() {
-    console.log(stallDocs.map(l => l._id));
-    console.log(dishDocs.map(d => d.stall))
+
+    Location.bulkWrite(
+        locationDocs.map(locDoc => ({
+            updateOne: {
+                filter: { locationName: locDoc.locationName },
+                update: { $set: locDoc._doc },
+                upsert: true
+            }
+        }))
+    );
+
+    Stall.insertMany(stallDocs);
+
+    Dish.insertMany(dishDocs);
 }
 
 module.exports = uploadLocation;
