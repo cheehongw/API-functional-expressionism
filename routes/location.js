@@ -8,10 +8,10 @@ var getStallDetails = require('../controllers/getStallDetails')
 locationRouter.get('/', getLocationXS);
 
 /* return the information associated with the location */
-locationRouter.get('/:locationName', getLocationDetails);
+locationRouter.get('/:locationID', getLocationDetails);
 
-/* return the stallDetails */
-locationRouter.get('/:locationName/:stallName', getStallDetails);
+/* return the stall list of the location, option: verbose */
+locationRouter.get('/:locationID/stalls', getLocationDetails);
 
 module.exports = locationRouter;
  

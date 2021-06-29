@@ -4,6 +4,8 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var locationRouter = require('./routes/location');
+const stallRouter = require('./routes/stallRouter');
+const dishRouter = require('./routes/dishRouter');
 
 //const uploadLocation = require('./seed/uploadLocation');
 
@@ -24,7 +26,13 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/location', locationRouter);
+//root will redirect to documentation page in the future
+//app.use('/', docs.html)
+
+app.use('/locations', locationRouter);
+app.use('/stalls', stallRouter);
+app.use('/dishes', dishRouter);
+
 //uploadLocation();
 
 module.exports = app;
