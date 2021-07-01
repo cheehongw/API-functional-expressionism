@@ -5,6 +5,7 @@ var stallSchema = new Schema({
     stallName: {type: String, required: true},
     stallImage: [String],
     menuImage: [String],
+    isHalal: {type: Boolean, default: false},
     rating: {type: Number, default: null},
     location: {type: Schema.Types.ObjectId, ref: 'Location', required: true}
 
