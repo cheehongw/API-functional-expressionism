@@ -10,7 +10,11 @@ locationRouter.get('/', getLocationXS);
 /* return the information associated with the location */
 locationRouter.get('/:locationID', getLocationDetails);
 
-/* return the stall list of the location, option: verbose */
+/**
+ * return the stall list of the location
+ * query params: 
+ *      verbose - default true - returns full details of stalls, else return just the objectID
+ */
 locationRouter.get('/:locationID/stalls', getStallXS);
 
 module.exports = locationRouter;

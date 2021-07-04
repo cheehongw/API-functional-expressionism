@@ -1,4 +1,4 @@
-const Location = require('../db/locationModel');
+const Stall = require('../db/stallModel');
 
 const getStallXS = async (req, res, next) => {
 

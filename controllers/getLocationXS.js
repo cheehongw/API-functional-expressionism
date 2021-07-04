@@ -2,7 +2,7 @@ const Location = require('../db/locationModel');
 
 const getLocationXS = async (req, res, next) => {
 
-    const fieldsToKeep = 'locationName locationDesc locationURL locationImage locationCoords rating';
+    const fieldsToKeep = '_id locationName locationDesc locationURL locationImage locationCoords rating';
 
     Location.find({}, fieldsToKeep)
         .exec((err, locationXS) => {

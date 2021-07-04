@@ -3,9 +3,7 @@ const Dish = require('../db/dishModel');
 
 const getStallDetails = (req, res, next) => {
     
-    const target = req.params.stallName.replace(/_/g,' ');
-
-    console.log(target);
+    const target = req.params.stallID;
 
     Stall.find({stallName: target})
         .populate({path: 'menu', model: Dish} )

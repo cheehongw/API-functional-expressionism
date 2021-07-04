@@ -2,10 +2,11 @@ var express = require('express');
 var dishRouter = express.Router();
 var getRandomDishes = require('../controllers/getRandomDishes');
 var getDishDetails = require('../controllers/getDishDetails');
-var tempRedirect = require('../controllers/tempRedirect');
 
 /* query dishes */
-dishRouter.get('/', tempRedirect);
+dishRouter.get('/', (req, res, next) => {
+    res.redirect(307, '/locations');
+});
 
 /* return a list of dishes, options: verbose, number */
 dishRouter.get('/random', getRandomDishes);
