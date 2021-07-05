@@ -10,7 +10,7 @@ This is the backend for team Functional Expressionism's orbital project.
 4. Run `npm start` or `yarn start` to start the server.
 
 # API
-
+---
 ### `GET: /locations`
 Returns an array of location objects in NUS
 
@@ -50,6 +50,8 @@ Usage:
 ```
 </details>
 
+---
+
 ### `GET: /locations/{LocationID}` 
 
 Returns details of a particular location.
@@ -79,6 +81,7 @@ Sample Response:
 ```
 </details>
 
+---
 
 ### `GET: /locations/{LocationID}/stalls` 
 
@@ -151,6 +154,7 @@ With `verbose=false`
 ```
 </details>
 
+---
 ### `GET: /stalls/{stallID}`
 Returns the details about a particular stall.
 
@@ -182,6 +186,7 @@ Sample Response:
 ```
 </details>
 
+---
 ### `GET: /stalls/{stallID}/menu` 
 
 Returns the menu at a particular stall
@@ -258,7 +263,7 @@ With `verbose=false`
 ```
 </details>
 
-
+---
 ### `GET: /dishes/random`
 
 Returns a random array of dishes.
