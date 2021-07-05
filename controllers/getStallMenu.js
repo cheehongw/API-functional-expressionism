@@ -3,7 +3,8 @@ const Dish = require('../db/dishModel');
 const getStallMenu = async (req, res, next) => {
 
     const targetStall = req.params.stallID;
-    const { verbose = true } = req.query
+    
+    const verbose = req.query.verbose === 'false' ? false : true;
 
     const fieldsToKeep = verbose 
         ? '_id name price displayImage rating desc stall'

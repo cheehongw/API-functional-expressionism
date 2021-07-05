@@ -3,7 +3,9 @@ const Stall = require('../db/stallModel');
 const getStallXS = async (req, res, next) => {
 
     const targetLocation = req.params.locationID;
-    const { verbose = true } = req.query
+    const verbose = req.query.verbose === 'false' ? false : true;
+
+    //-----------------HTTP layer ends ----------------//
 
     const fieldsToKeep = verbose 
         ? '_id stallName stallImage menuImage isHalal rating location'

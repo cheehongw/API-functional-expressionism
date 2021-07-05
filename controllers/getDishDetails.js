@@ -5,8 +5,6 @@ const getDishDetails = (req, res, next) => {
     
     const target = req.params.dishID;
 
-    console.log(target);
-
     Dish.find({_id: target})
         .populate({path: 'stall', model: Stall} )
         .exec((err, loc) => {

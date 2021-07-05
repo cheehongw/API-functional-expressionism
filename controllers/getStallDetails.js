@@ -5,7 +5,7 @@ const getStallDetails = (req, res, next) => {
     
     const target = req.params.stallID;
 
-    Stall.find({stallName: target})
+    Stall.find({_id: target})
         .populate({path: 'menu', model: Dish} )
         .exec((err, loc) => {
             if (err) {
