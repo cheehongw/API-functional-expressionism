@@ -3,6 +3,7 @@ var mongoose = require('mongoose');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var cors = require('cors');
 const locationRouter = require('./routes/locationRouter');
 const stallRouter = require('./routes/stallRouter');
 const dishRouter = require('./routes/dishRouter');
@@ -20,6 +21,7 @@ let db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 
+app.use(cors());
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
