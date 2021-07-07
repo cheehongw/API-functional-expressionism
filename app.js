@@ -31,6 +31,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 //root will redirect to documentation page in the future
 //app.use('/', docs.html)
 
+app.use((req, res, next) => {
+
+    res.set('Cache-Control', `public, max-age=${process.env.RESPONSE_FRESHNESS}`)
+    next()
+})
+//json responses
 app.use('/locations', locationRouter);
 app.use('/stalls', stallRouter);
 app.use('/dishes', dishRouter);
