@@ -22,7 +22,7 @@
         "desc": null
       },
       {
-        "name": "Steamed/ Roasted Chicken Rice",
+        "name": "Steamed/Roasted Chicken Rice",
         "price": {
           "student": 3.60,
           "public": 4.60
@@ -62,7 +62,7 @@
         "desc": null
       },
       {
-        "name": "Steamed/ Roasted Chicken/ Char Siew/ Roasted Pork Rice Set",
+        "name": "Steamed/Roasted Chicken/Char Siew/Roasted Pork Rice Set",
         "price": {
           "student": 5.50,
           "public": 6.50
@@ -92,7 +92,7 @@
         "desc": null
       },
       {
-        "name": "2 Combination Set (Steamed/ Roasted Chicken/ Roasted Duck/ Char Siew/ Roasted Pork",
+        "name": "2 Combination Set (Steamed/Roasted Chicken/Roasted Duck/Char Siew/Roasted Pork",
         "price": {
           "student": 6.00,
           "public": 7.00
@@ -234,7 +234,7 @@
         "desc": null
       },
       {
-        "name": "Beef / Chicken Veg Soup Set",
+        "name": "Beef/Chicken Veg Soup Set",
         "price": {
           "student": 5.20,
           "public": 5.70
@@ -254,7 +254,7 @@
         "desc": null
       },
       {
-        "name": "Salmon + Chicken / Pork / Beef Bento",
+        "name": "Salmon + Chicken/Pork/Beef Bento",
         "price": {
           "student": 6.00,
           "public": 6.50
@@ -264,7 +264,7 @@
         "desc": null
       },
       {
-        "name": "Chicken / Pork Cutlet + Fried Ebi Bento",
+        "name": "Chicken/Pork Cutlet + Fried Ebi Bento",
         "price": {
           "student": 5.20,
           "public": 5.70
@@ -274,7 +274,7 @@
         "desc": null
       },
       {
-        "name": "Chicken / Pork Cutlet + Scallop Bento",
+        "name": "Chicken/Pork Cutlet + Scallop Bento",
         "price": {
           "student": 5.20,
           "public": 5.70
@@ -284,7 +284,7 @@
         "desc": null
       },
       {
-        "name": "Salmon Chicken / Pork Cutlet Bento",
+        "name": "Salmon Chicken/Pork Cutlet Bento",
         "price": {
           "student": 6.00,
           "public": 6.50
@@ -294,7 +294,7 @@
         "desc": null
       },
       {
-        "name": "Fried Chicken / Pork + Gyoza Bento",
+        "name": "Fried Chicken/Pork + Gyoza Bento",
         "price": {
           "student": 5.20,
           "public": 5.70
@@ -521,7 +521,7 @@
         "desc": null
       },
       {
-        "name": "Chicken Cutlet Rice Set with Egg (Salted Egg/Creamy/Black Pepper/Sweet&Sour)",
+        "name": "Chicken Cutlet Rice Set with Egg (Salted Egg/Creamy/Black Pepper/Sweet & Sour)",
         "price": {
           "student": 5.00,
           "public": 5.50
@@ -581,7 +581,7 @@
         "desc": "Chicken/Pork/Seafood"
       },
       {
-        "name": "Ginger & Spring Onion Diced Chicken / Sliced Fish / Diced Pork Rice Set with Egg",
+        "name": "Ginger & Spring Onion Diced Chicken/Sliced Fish/Diced Pork Rice Set with Egg",
         "price": {
           "student": 4.00,
           "public": 4.50
@@ -591,7 +591,7 @@
         "desc": null
       },
       {
-        "name": "Black Pepper Diced Chicken / Sliced Fish / Diced Pork Rice Set with Egg",
+        "name": "Black Pepper Diced Chicken/Sliced Fish/Diced Pork Rice Set with Egg",
         "price": {
           "student": 4.00,
           "public": 4.50
@@ -601,7 +601,7 @@
         "desc": null
       },
       {
-        "name": "Dried Chilli Diced Chicken / Sliced Fish / Diced Pork Rice Set with Egg",
+        "name": "Dried Chilli Diced Chicken/Sliced Fish/Diced Pork Rice Set with Egg",
         "price": {
           "student": 4.50,
           "public": 5.00
@@ -773,7 +773,7 @@
         "desc": null
       },
       {
-        "name": "Online Sesame / Red Bean Paste Sesame Pancake",
+        "name": "Online Sesame/Red Bean Paste Sesame Pancake",
         "price": {
           "student": 4.00,
           "public": 4.50
