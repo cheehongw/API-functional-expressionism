@@ -20,7 +20,7 @@ package-lock.json
 *.log
 *.gz
 .env
-
+firebase-adminsdk-credentials.json
 
 # Coveralls
 coverage
