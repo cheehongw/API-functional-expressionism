@@ -7,6 +7,7 @@ var cors = require('cors');
 const locationRouter = require('./routes/locationRouter');
 const stallRouter = require('./routes/stallRouter');
 const dishRouter = require('./routes/dishRouter');
+const { cacheControl } = require('./controllers/cacheControl');
 
 //const uploadLocation = require('./seed/uploadLocation');
 
@@ -15,8 +16,8 @@ var app = express();
 require('dotenv').config();
 
 //Setup mongoose connection
-let mongoDB = `${process.env.DB_TEST}`;
-mongoose.connect(mongoDB, { useNewUrlParser:true, useUnifiedTopology: true });
+let mongoDB = `${process.env.DB_CONNECTION}`;
+mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true });
 let db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
@@ -31,11 +32,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 //root will redirect to documentation page in the future
 //app.use('/', docs.html)
 
-app.use((req, res, next) => {
+app.use(cacheControl(process.env.RESPONSE_FRESHNESS));
 
-    res.set('Cache-Control', `public, max-age=${process.env.RESPONSE_FRESHNESS}`)
-    next()
-})
 //json responses
 app.use('/locations', locationRouter);
 app.use('/stalls', stallRouter);

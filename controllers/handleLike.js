@@ -10,7 +10,7 @@ async function handleLike(req, res) {
     const ObjectId = req.params.dishID || req.params.stallID;
     const uid = res.locals.uid;
 
-    
+
     console.log(`model: ${modelType}, itemID: ${ObjectId}, uid: ${uid}`);
 
     switch (method) {
@@ -24,15 +24,14 @@ async function handleLike(req, res) {
             break;
         case "DELETE":
             const outcome = await delLike(uid, ObjectId, modelType);
-            outcome.deletedCount === 1 
-                ? res.status(200).json(true) 
+            outcome.deletedCount === 1
+                ? res.status(200).json(true)
                 : res.status(202).json(false);
 
             break;
         default: // Returns the document (or null if it doesnt exist)
             const LikedItem = await getLikeStatus(uid, ObjectId);
-            console.log(LikedItem);
-            res.json(LikedItem);
+            LikedItem ? res.json(true) : res.json(false);
     }
 }
 

@@ -1,5 +1,12 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
+// const userSchema = require('./userModel')
+
+// const ratingSchema = new Schema({
+//     userID = {type: userSchema},
+//     rating = {type: Number, min:0, max: 5}
+
+// })
 
 var dishSchema = new Schema({
     name: String,
@@ -7,9 +14,11 @@ var dishSchema = new Schema({
     displayImage: String,
     rating: { type: Number, min: 0, max: 5 },
     desc: String,
+    stall: { type: Schema.Types.ObjectId, ref: 'Stall', required: true },
+    // userRatings: {
+    //     type: [ratingSchema]
 
-    stall: { type: Schema.Types.ObjectId, ref: 'Stall', required: true }
-
+    // }
 })
 
 dishSchema
