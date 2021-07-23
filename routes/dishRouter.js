@@ -3,6 +3,7 @@ var dishRouter = express.Router();
 var getRandomDishes = require('../controllers/getRandomDishes');
 var getDishDetails = require('../controllers/getDishDetails');
 var handleLike = require('../controllers/handleLike');
+var handleRating = require('../controllers/handleRating');
 var validateToken = require('../controllers/validateToken');
 var { removeCacheControl } = require('../controllers/cacheControl')
 
@@ -18,5 +19,7 @@ dishRouter.get('/random', getRandomDishes);
 dishRouter.get('/:dishID', getDishDetails);
 
 dishRouter.use(`/:dishID/like`, validateToken, removeCacheControl, handleLike);
+
+dishRouter.use('/:dishID/rate', validateToken, handleRating);
 
 module.exports = dishRouter;
