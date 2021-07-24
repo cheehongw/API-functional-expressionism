@@ -10,9 +10,6 @@ async function handleLike(req, res) {
     const ObjectId = req.params.dishID || req.params.stallID;
     const uid = res.locals.uid;
 
-
-    console.log(`model: ${modelType}, itemID: ${ObjectId}, uid: ${uid}`);
-
     switch (method) {
         case "POST":
             const result = await addLike(uid, ObjectId, modelType);

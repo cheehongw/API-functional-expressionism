@@ -7,6 +7,7 @@ var cors = require('cors');
 const locationRouter = require('./routes/locationRouter');
 const stallRouter = require('./routes/stallRouter');
 const dishRouter = require('./routes/dishRouter');
+const userRouter = require('./routes/userRouter');
 const { cacheControl } = require('./controllers/cacheControl');
 
 //const uploadLocation = require('./seed/uploadLocation');
@@ -38,6 +39,7 @@ app.use(cacheControl(process.env.RESPONSE_FRESHNESS));
 app.use('/locations', locationRouter);
 app.use('/stalls', stallRouter);
 app.use('/dishes', dishRouter);
+app.use('/user', userRouter);
 
 //uploadLocation();
 
